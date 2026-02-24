@@ -29,7 +29,7 @@ Docs available at `http://localhost:8000/docs`
 
 **GET** `/company` — Queries the YTJ open data API with the provided Business ID, parses the raw response, and returns a normalised company profile including names, registration date, industry code, and website.
 
-`/company?business_id=0116297-6`
+`/company?business_id=0113197-6`
 ```json
 {
   "business_id": "0116297-6",
@@ -46,8 +46,8 @@ Docs available at `http://localhost:8000/docs`
 ```json
 {
   "income": 12500000,
-  "net_income": -200000,
-  "emissions": null,
+  "net_income": 200000,
+  "emissions": 350,
   "water_usage": null,
   "quarter": "Q1 2024"
 }
